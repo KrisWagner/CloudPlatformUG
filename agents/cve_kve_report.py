@@ -344,7 +344,7 @@ def send_email(subject: str, html_body: str, to_addr: str) -> None:
 
 def main() -> None:
     days_back = int(os.getenv("DAYS_BACK", "1"))
-    to_email = os.getenv("REPORT_TO_EMAIL", "kristopher.wagner@icloud.com")
+    to_email = os.getenv("REPORT_TO_EMAIL", "kris@kriswagner.com")
 
     now = datetime.now(timezone.utc)
     start = now - timedelta(days=days_back)
