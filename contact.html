@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Chicago Pug Rescue</title>
+  <meta name="description" content="Get in touch with the Chicago Pug Rescue team — for volunteer inquiries, partnership questions, or general feedback." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">🐾 <span>Chicago</span> Pug Rescue</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Adopt &amp; Foster</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header class="contact-hero">
+    <span class="hero-emoji">✉️</span>
+    <h1>Get in Touch</h1>
+    <p>Have a question, want to volunteer, or interested in partnering with us? We'd love to hear from you.</p>
+  </header>
+
+  <!-- FORM SECTION -->
+  <section class="bg-white">
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- FORM -->
+        <div class="contact-form-wrap">
+          <h2 class="section-title">Send Us a Message</h2>
+          <div class="divider"></div>
+          <form class="contact-form" action="mailto:contact@chicagopugrescue.org" method="POST" enctype="text/plain">
+            <div class="form-group">
+              <label for="name">Your Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address <span class="required">*</span></label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject <span class="required">*</span></label>
+              <select id="subject" name="subject" required>
+                <option value="" disabled selected>Select a topic…</option>
+                <option value="volunteer">Volunteer Inquiry</option>
+                <option value="rescue-partnership">Rescue Organization Partnership</option>
+                <option value="content-correction">Content Correction or Suggestion</option>
+                <option value="events">Events &amp; Pug Parade</option>
+                <option value="media">Media or Press</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message <span class="required">*</span></label>
+              <textarea id="message" name="message" rows="6" placeholder="Tell us what's on your mind…" required></textarea>
+            </div>
+            <div class="form-group form-check">
+              <label class="checkbox-label">
+                <input type="checkbox" name="newsletter" value="yes" />
+                <span>Sign me up for occasional updates from Chicago Pug Rescue</span>
+              </label>
+            </div>
+            <button type="submit" class="btn btn-submit">Send Message</button>
+          </form>
+        </div>
+
+        <!-- SIDEBAR -->
+        <aside class="contact-sidebar">
+          <div class="contact-info-card">
+            <div class="contact-info-icon">📍</div>
+            <h3>Based in Chicago</h3>
+            <p>We're a fully remote volunteer team spread across Chicago neighborhoods — no physical office, but always reachable online.</p>
+          </div>
+          <div class="contact-info-card">
+            <div class="contact-info-icon">✉️</div>
+            <h3>Email Us Directly</h3>
+            <p>For general inquiries: <a href="mailto:contact@chicagopugrescue.org">contact@chicagopugrescue.org</a></p>
+            <p>For privacy matters: <a href="mailto:privacy@chicagopugrescue.org">privacy@chicagopugrescue.org</a></p>
+          </div>
+          <div class="contact-info-card">
+            <div class="contact-info-icon">⏱️</div>
+            <h3>Response Time</h3>
+            <p>We aim to respond to all messages within 3–5 business days. Thank you for your patience — we're all volunteers!</p>
+          </div>
+          <div class="contact-info-card">
+            <div class="contact-info-icon">🐾</div>
+            <h3>Found a Stray Pug?</h3>
+            <p>Contact Chicago Animal Care &amp; Control immediately at <strong>(312) 744-5000</strong>. Don't wait — reach out to the pros right away.</p>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">🐾 Chicago Pug Rescue</div>
+        <p>A community resource connecting pug lovers in Chicago with rescue organizations, adoption guidance, and foster opportunities.</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Adopt &amp; Foster</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul class="footer-links">
+          <li><a href="index.html#adopt">Adoption Steps</a></li>
+          <li><a href="index.html#foster">Fostering Guide</a></li>
+          <li><a href="index.html#organizations">Local Rescues</a></li>
+          <li><a href="index.html#chicago-tips">Chicago Tips</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Chicago Pug Rescue. All rights reserved.</span>
+      <span>Made with 🧡 in Chicago, IL</span>
+    </div>
+  </footer>
+
+</body>
+</html>
